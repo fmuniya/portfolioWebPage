@@ -70,3 +70,18 @@ button:hover {
     box-shadow: 0 1px #666;
     transform: translateY(4px);
   } */
+
+img {
+    height: 40px;
+}
+
+.socials-div {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 50px;
+}
+
+div img {
+    margin: 5px;
+}
