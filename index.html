@@ -21,10 +21,10 @@
         <nav class="nav-bar">
             
             <ul class="menu">
-                <li>home</li>
-                <li>projects</li>
-                <li>contacts</li>
-                <li>about</li>
+                <li><a href="index.html">home</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="contact.html">contacts</a></li>
+                <li><a href="about.html">about</a></li>
             </ul>
         </nav>
     </header>
@@ -37,15 +37,27 @@
         </p>
     </section>
     
-    <button>projects</button>
+    <button onclick="projects(this)" value="projects.html">projects</button>
 
-    <section class="socials-section">
-        <div class="socials-div">
-            <a href="https://github.com/fmuniya" target="_blank"><img src="resources/images/git-logo.png" alt="git logo"></a>
+    <section class="skills-section">
+        <h2>skills</h2>
+        <div class="skills-div">
+            <ul>
+                <li><img src="resources/images/html5-logo.png" alt="html 5 logo"></li>
+                <li><img src="resources/images/cakephp-logo.svg" alt="css logo"></li>
+                <li><img src="resources/images/js-logo.png" alt="javascript logo"></li>
+                <li><img src="resources/images/nodejs-logo.png" alt="node js logo"></li>
+                <li><img src="resources/images/java-logo.png" alt="html 5 logo"></li>
+                <li><img src="resources/images/cakephp-logo.svg" alt="cake php logo"></li>
+                <li><img src="resources/images/Linux_Logo_in_Linux_Libertine_Font.svg.png" alt="Linux logo"></li>
+                <li><img src="resources/images/ms-logo.png" alt="microsoft windows logo"></li>
+            </ul>
+            
+            <!-- <a href="https://github.com/fmuniya" target="_blank"><img src="resources/images/git-logo.png" alt="git logo"></a>
             <a href="https://www.linkedin.com/in/freeman-muniya-97025a42/" target="_blank"><img src="resources/images/linkedin-logo.png" alt="linkedin logo"></a>
-            <!-- <img src="resources/images/twitterx.png" alt="twitter logo"> -->
+            <a href=""></a><img src="resources/images/gmail-icon-logo-black-and-white.png" alt="gmail logo"> -->
         </div>
     </section>
-    
+    <script src="script.js"></script>
 </body>
 </html>
